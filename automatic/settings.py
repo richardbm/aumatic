@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'accounts',
+    'devices',
     'django_filters',
     'rest_framework',
     'corsheaders',
