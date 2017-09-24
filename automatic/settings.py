@@ -158,7 +158,7 @@ AUTH_USER_MODEL = "accounts.User"
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = 'static/'
+STATIC_ROOT = '/static'
 
 MEDIA_URL = env('URL') + '/media/'
 MEDIA_ROOT = 'media/'
@@ -200,6 +200,9 @@ LOGGING = {
 
 SITE_ID=1
 
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+    )
 
 EMAIL_USE_TLS = env('EMAIL_USE_TLS')
 EMAIL_USE_TLS = True if EMAIL_USE_TLS == "True" else False

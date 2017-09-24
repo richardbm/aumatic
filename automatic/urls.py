@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-
+from devices.views import TemplatePageView
 urlpatterns = [
     url(r'^', include("accounts.urls")),
+    url(r'^(?P<slug>[\w.-]+)', TemplatePageView.as_view()),
     url(r'^admin/', admin.site.urls),
 ]

@@ -1,0 +1,247 @@
+/* line 5, ../../Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, ../sass/main.sass */
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-size: 16px;
+}
+/* line 15, ../sass/main.sass */
+body header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 20, ../sass/main.sass */
+body header img {
+  margin-left: 10%;
+}
+/* line 23, ../sass/main.sass */
+body header .menu {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 5% 18px 0;
+}
+/* line 28, ../sass/main.sass */
+body header ul {
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+}
+/* line 32, ../sass/main.sass */
+body header ul li {
+  margin-left: 15px;
+}
+/* line 34, ../sass/main.sass */
+body header ul li a {
+  text-decoration: none;
+  color: #003773;
+}
+/* line 38, ../sass/main.sass */
+body main {
+  width: 80%;
+  background-color: rgba(0, 55, 115, 0.1);
+  margin: 20px 0 20px 0;
+  border-radius: 8px;
+  padding: 10px;
+}
+/* line 45, ../sass/main.sass */
+body main h2 {
+  font-size: 1.7rem;
+  margin: 10px 0;
+}
+/* line 48, ../sass/main.sass */
+body main h2 i.dispositivos {
+  font-size: 1.2rem !important;
+  color: rgba(0, 0, 0, 0.7);
+}
+/* line 52, ../sass/main.sass */
+body main ul {
+  font-size: 1.2rem;
+}
+/* line 54, ../sass/main.sass */
+body main ul li {
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  padding: 22px 10px 14px 10px;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.5s ease all;
+}
+/* line 62, ../sass/main.sass */
+body main ul li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* line 65, ../sass/main.sass */
+body main ul li a {
+  text-decoration: none;
+  color: #003773;
+}
+/* line 69, ../sass/main.sass */
+body main ul li .icons {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+/* line 76, ../sass/main.sass */
+body.add_action main p {
+  display: flex;
+  padding: 15px;
+}
+/* line 80, ../sass/main.sass */
+body.add_action main p label {
+  width: 30%;
+}
+/* line 83, ../sass/main.sass */
+body.add_action main p input {
+  border: none;
+  padding: 10px;
+}
+/* line 87, ../sass/main.sass */
+body.add_action main p select {
+  font-size: 16px;
+  padding: 8px;
+  color: #999;
+}
+/* line 92, ../sass/main.sass */
+body.add_action main p input[type='checkbox'] {
+  width: 20px;
+}
+/* line 95, ../sass/main.sass */
+body.add_action main p button {
+  border: none;
+  background-color: #003773;
+  padding: 10px;
+  color: white;
+}
+/* line 101, ../sass/main.sass */
+body.add_action main p:last-child {
+  justify-content: center;
+}
+
+/* line 105, ../sass/main.sass */
+h3 {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+/* line 108, ../sass/main.sass */
+h3 i.dispositivos {
+  font-size: 1rem !important;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 113, ../sass/main.sass */
+.lista-tareas table {
+  width: 100%;
+}
+/* line 116, ../sass/main.sass */
+.lista-tareas table thead {
+  margin-bottom: 20px;
+  background-color: #e0e0e0;
+}
+/* line 120, ../sass/main.sass */
+.lista-tareas table td {
+  padding: 20px;
+}
+/* line 124, ../sass/main.sass */
+.lista-tareas table tbody td {
+  border-bottom: 1px solid #ddd;
+}
+/* line 128, ../sass/main.sass */
+.lista-tareas table tbody td a {
+  color: #003773;
+  font-size: 1.5rem;
+  margin-left: 15px;
+  text-decoration: none;
+}
+/* line 134, ../sass/main.sass */
+.lista-tareas table tbody tr {
+  transition: 0.5s ease all;
+}
+/* line 137, ../sass/main.sass */
+.lista-tareas table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 142, ../sass/main.sass */
+#chart_div {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 147, ../sass/main.sass */
+body.add_action h2.title-add-action {
+  display: flex;
+}
+/* line 149, ../sass/main.sass */
+body.add_action h2.title-add-action i {
+  font-size: 1.5rem !important;
+  margin: 2px 3px 0 0;
+}
